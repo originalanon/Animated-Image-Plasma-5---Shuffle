@@ -13,7 +13,8 @@ If you can and found this software helpful please [Donate](https://liberapay.com
 # Installtion
 ```
 git clone git@github.com:originalanon/Animated-Image-Plasma-5---Shuffle.git
-plasmapkg2 --install com.orianon.animatedImageShuffle
+cd Animated-Image-Plasma-5---Shuffle
+plasmapkg2 --install .
 
 ```
 # Usage
@@ -33,7 +34,7 @@ Just fork or clone the project :
 
 Then you can apply/install you're changes by running : 
 
-`plasmapkg2 --install com.orianon.animatedImageShuffle`
+`plasmapkg2 --install .` from the repository root. For an already installed copy, use `plasmapkg2 --upgrade .`.
 
 And remove the installed wallpaper with
 
